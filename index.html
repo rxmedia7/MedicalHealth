@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Medical Health">
+    <meta name="keywords" content="Nursing, Doctors, Clinic Facilities, Specialist">
+    <meta name="author" content="John Doe">
+    <title>Medical Health</title>
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Landing Page -->
+    <section class="landingpg">
+        <header>
+            <!-- Navigation bar -->
+            <div class="container">
+                <nav class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img id="logo" src="assets/icons/logo.svg" alt="Logo">
+                            <h1 class="med">Medical</h1>
+                        </a>
+                    </div>
+                    <div class="pages">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="usermenu">
+                        <button id="loginbtn" type="submit">Login</button>
+                        <button class="regis" id="regisbtn">Register</button>
+                        <i id="gear" class="bi bi-gear"></i>
+                    </div>
+                    <!-- Login popup -->
+                    <div class="pop-cont">
+                        <div class="loginpop">
+                            <h1>Welcome to Medical Health</h1>
+                            <form action="#">
+                                <input id="inp" type="email" placeholder="Username or Email" required>
+                                <input id="pass" type="password" placeholder="Password">
+                                <button class="loginsubmit" type="submit">LOG IN</button>
+                            </form>
+                            <button class="noacc">Don't have an account?</button>
+                        </div>
+                    </div>
+                    <!-- Register popup -->
+                    <div class="reg-cont">
+                        <div class="regpop">
+                            <form action="#">
+                                <input id="firstname" type="text" placeholder="First Name">
+                                <input id="lastname" type="text" placeholder="Last Name">
+                                <input id="mail" type="email" placeholder="Email">
+                                <input id="pass" type="password" placeholder="Password">
+                                <input id="repeatpass" type="password" placeholder="Repeat Password">
+                                <button class="regsubmit" type="submit">REGISTER</button>
+                            </form>
+                            <button class="have_acc">Already have an account?</button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- Landing main -->
+            <div class="container">
+                <div class="decor">
+                    <div id="oval1"></div>
+                    <div id="oval2"></div>
+                </div>
+                <section class="landing">
+                    <div class="landmain">
+                        <div class="textarea">
+                            <h1>Lorem ipsum dolor amet</h1>
+                            <p>Nam sollicitud nunc, cursus eros vulputate <br> sed. Vestibulum lobortis.</p>
+                            <div class="lnd-btn">
+                                <button id="info">MORE INFO</button>
+                                <button class="regnow" id="regisbtn">REGISTER NOW</button>
+                            </div>
+                        </div>
+                        <img id="landingimg" src="assets/images/landing.svg" alt="Landing Image">
+                    </div>
+
+                    <div class="landfoot">
+                        <div id="landft">
+                            <h2>Business Solution</h2>
+                            <p>Interdum et malesuada fames ac ante…</p>
+                        </div>
+                        <div id="landft">
+                            <h2 id="special">Free project quote</h2>
+                            <p>Interdum et malesuada fames ac <br> ante…</p>
+                        </div>
+                        <div id="landft">
+                            <h2>Nulla lobortis nunc</h2>
+                            <p>Interdum et malesuada fames ac ante…</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </header>
+    </section>
+    <!-- Main content -->
+    <main>
+        <!-- Statistics -->
+        <div class="container">
+            <section class="stats">
+                <div class="stat_all">
+                    <div id="stat-main">
+                        <img src="assets/icons/doctors.svg">
+                        <div id="stat_text">
+                            <h1>+1200</h1>
+                            <h2>Doctors</h2>
+                        </div>
+                    </div>
+                    <p>Maecenas nisl libero, tincidunt id odio id, <br>
+                        feugiat vulputate quam. </p>
+                </div>
+                <div class="stat_all">
+                    <div id="stat-main">
+                        <img src="assets/icons/clinics.svg">
+                        <div id="stat_text">
+                            <h1>+1200</h1>
+                            <h2>Clinics</h2>
+                        </div>
+                    </div>
+                    <p>Maecenas nisl libero, tincidunt id odio id, <br>
+                        feugiat vulputate quam. </p>
+                </div>
+                <div class="stat_all">
+                    <div id="stat-main">
+                        <img src="assets/icons/specialist.svg">
+                        <div id="stat_text">
+                            <h1>+100</h1>
+                            <h2>Specialist</h2>
+                        </div>
+                    </div>
+                    <p>Maecenas nisl libero, tincidunt id odio id, <br>
+                        feugiat vulputate quam. </p>
+                </div>
+            </section>
+        </div>
+        <!-- Our facilities -->
+        <div class="container">
+            <!-- <div class="decor1">
+                <div class="dot1"></div>
+                <div class="ring2"></div>
+            </div> -->
+            <section class="facy">
+                <h1 class="heading">Clinic facilities</h1>
+                <div class="see_all">
+                    <p class="paragraph">Nam sollicitudin nunc, cursus ullamcoper eros vulpulate sed. </p>
+                    <div>
+                        <button class="see">See all</button>
+                        <img src="assets/icons/arrow-right.png">
+                    </div>
+                </div>
+                <div class="facy_cont">
+                    <div class="facy_main">
+                        <img id="facy_img" src="assets/images/facilities.png">
+                        <div class="left-right">
+                            <i class="bi bi-arrow-left-circle"></i>
+                            <i class="bi bi-arrow-right-circle"></i>
+                        </div>
+                    </div>
+
+
+                    <div class="facy_cards">
+                        <div class="card">
+                            <img src="assets/images/fc_card1.jpg">
+                            <h3>Lorem ipsum dolor</h3>
+                            <p>Pellentesque ac bibendum <br>
+                                tortor, vel blandit nulla. Nulla <br>
+                                eget lobortis lacus.</p>
+                            <button class="see_detail">See detail</button>
+                        </div>
+                        <div class="card">
+                            <img src="assets/images/fc_card2.jpg">
+                            <h3>Lorem ipsum dolor</h3>
+                            <p>Pellentesque ac bibendum <br>
+                                tortor, vel blandit nulla. Nulla <br>
+                                eget lobortis lacus.</p>
+                            <button class="see_detail">See detail</button>
+                        </div>
+                        <div class="card">
+                            <img src="assets/images/fc_card3.jpg">
+                            <h3>Lorem ipsum dolor</h3>
+                            <p>Pellentesque ac bibendum <br>
+                                tortor, vel blandit nulla. Nulla <br>
+                                eget lobortis lacus.</p>
+                            <button class="see_detail">See detail</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Our speciality -->
+        <div class="container">
+            <section class="splty">
+                <div class="splty-main">
+                    <h1 class="heading">Our Speciality</h1>
+                    <p class="paragraph">Curabitur egestas consequat lorem, vel fermentum <br>
+                        augue porta id. Aliquam lobortis magna neque, gravida <br>
+                        consequat velit venenatis at.</p>
+                    <div class="splty-buttons">
+                        <button class="splty-btn">Dentist</button>
+                        <button class="splty-btn">Padriatic</button>
+                        <button class="splty-btn">Cardiology</button>
+                        <button class="splty-btn">Traumatologi</button>
+                        <button class="splty-btn">Othopaedi</button>
+                        <button class="splty-btn">Anestesiologi</button>
+                        <button class="splty-btn">Reumatologi</button>
+                        <button class="splty-btn">Andrologi</button>
+                        <button class="splty-btn">Ortodonsia</button>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/images/speciality.svg">
+                </div>
+            </section>
+        </div>
+        <!-- Ask doctors -->
+        <div class="container">
+            <section class="askdoc">
+                <div class="doctors">
+                    <h1 class="heading">Ask Doctors</h1>
+                    <div class="doc-btn">
+                        <button>All</button>
+                        <button>Orthopedic</button>
+                        <button>Nutritionist</button>
+                        <button>Pediatric</button>
+                        <button>Anaesthestic</button>
+                    </div>
+                </div>
+                <!-- Chat-one -->
+                <div class="doc-chat-container">
+                    <div class="doctors-chat">
+                        <img id="avatar" src="assets/images/avatar1.jpg">
+                        <div class="chat-card">
+                            <div id="profile">
+                                <div id="doc-name">
+                                    <h3>dr.John Doe</h3>
+                                    <p>Pediatric Surgeon</p>
+                                </div>
+                            </div>
+                            <hr id="card-split">
+                            <div id="card-bottom">
+                                <div id="bottom">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <p>95%</p>
+                                </div>
+                                <div id="bottom">
+                                    <i class="bi bi-calendar4"></i>
+                                    <p>4 years</p>
+                                </div>
+                                <button id="card-bottom-chat">Chat</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Chat-two -->
+                    <div class="doctors-chat">
+                        <img id="avatar" src="assets/images/avatar2.jpg">
+                        <div class="chat-card">
+                            <div id="profile">
+                                <div id="doc-name">
+                                    <h3>dr.Jena Doe</h3>
+                                    <p>Pediatric Surgeon</p>
+                                </div>
+                            </div>
+                            <hr id="card-split">
+                            <div id="card-bottom">
+                                <div id="bottom">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <p>92%</p>
+                                </div>
+                                <div id="bottom">
+                                    <i class="bi bi-calendar4"></i>
+                                    <p>3 years</p>
+                                </div>
+                                <button id="card-bottom-chat">Chat</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Chat-three -->
+                    <div class="doctors-chat">
+                        <img id="avatar" src="assets/images/avatar3.jpg">
+                        <div class="chat-card">
+                            <div id="profile">
+                                <div id="doc-name">
+                                    <h3>dr.John Doe</h3>
+                                    <p>Pediatric Surgeon</p>
+                                </div>
+                            </div>
+                            <hr id="card-split">
+                            <div id="card-bottom">
+                                <div id="bottom">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <p>87%</p>
+                                </div>
+                                <div id="bottom">
+                                    <i class="bi bi-calendar4"></i>
+                                    <p>5 years</p>
+                                </div>
+                                <button id="card-bottom-chat">Chat</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Chat-four -->
+                    <div class="doctors-chat">
+                        <img id="avatar" src="assets/images/avatar4.png">
+                        <div class="chat-card">
+                            <div id="profile">
+                                <div id="doc-name">
+                                    <h3>dr.John Doe</h3>
+                                    <p>Pediatric Surgeon</p>
+                                </div>
+                            </div>
+                            <hr id="card-split">
+                            <div id="card-bottom">
+                                <div id="bottom">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <p>93%</p>
+                                </div>
+                                <div id="bottom">
+                                    <i class="bi bi-calendar4"></i>
+                                    <p>3 years</p>
+                                </div>
+                                <button id="card-bottom-chat">Chat</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Chat-five -->
+                    <div class="doctors-chat">
+                        <img id="avatar" src="assets/images/avatar5.jpg">
+                        <div class="chat-card">
+                            <div id="profile">
+                                <div id="doc-name">
+                                    <h3>dr.Jean Doe</h3>
+                                    <p>Pediatric Surgeon</p>
+                                </div>
+                            </div>
+                            <hr id="card-split">
+                            <div id="card-bottom">
+                                <div id="bottom">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <p>90%</p>
+                                </div>
+                                <div id="bottom">
+                                    <i class="bi bi-calendar4"></i>
+                                    <p>2 years</p>
+                                </div>
+                                <button id="card-bottom-chat">Chat</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Chat-six -->
+                    <div class="doctors-chat">
+                        <img id="avatar" src="assets/images/avatar6.jpg">
+                        <div class="chat-card">
+                            <div id="profile">
+                                <div id="doc-name">
+                                    <h3>dr.John Doe</h3>
+                                    <p>Pediatric Surgeon</p>
+                                </div>
+                            </div>
+                            <hr id="card-split">
+                            <div id="card-bottom">
+                                <div id="bottom">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <p>97%</p>
+                                </div>
+                                <div id="bottom">
+                                    <i class="bi bi-calendar4"></i>
+                                    <p>4 years</p>
+                                </div>
+                                <button id="card-bottom-chat">Chat</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- People testimonials -->
+        <div class="container">
+            <section class="testim">
+                <h1 class="heading">People Testimonials</h1>
+                <p class="paragraph">Nam sollicitudin nunc, cursus ullamcoper eros vulpulate sed.</p>
+                <div class="testim-cont">
+                    <!-- Slider 1-->
+                    <div class="testim-slider">
+                        <p>Nam sollicitudin dissinim <br>
+                            nunc, cursus ullamcorer eros <br>
+                            vulputate sed. Vestibulum sit <br>
+                            amet tortor sit ame libero.
+                        </p>
+                        <div class="testim-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <div class="testim-user">
+                            <div>
+                                <h3>John Doe</h3>
+                                <p><i>Chief Digital Officer</i></p>
+                            </div>
+                            <img id="testim-avatar" src="assets/images/avatar3.jpg">
+                        </div>
+                    </div>
+                    <!-- Slider 2 -->
+                    <div class="testim-slider">
+                        <p>Nam sollicitudin dissinim <br>
+                            nunc, cursus ullamcorer eros <br>
+                            vulputate sed. Vestibulum sit <br>
+                            amet tortor sit ame libero.
+                        </p>
+                        <div class="testim-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <div class="testim-user">
+                            <div>
+                                <h3>Jane Doe</h3>
+                                <p><i>Chief Digital Officer</i></p>
+                            </div>
+                            <img id="testim-avatar" src="assets/images/avatar2.jpg">
+                        </div>
+                    </div>
+                    <!-- Slider 3 -->
+                    <!-- <div class="testim-slider">
+                        <p>Nam sollicitudin dissinim <br>
+                            nunc, cursus ullamcorer eros <br>
+                            vulputate sed. Vestibulum sit <br>
+                            amet tortor sit ame libero.
+                        </p>
+                        <div class="testim-stars">
+                            <img src="assets/icons/star-fill.png">
+                            <img src="assets/icons/star-fill.png">
+                            <img src="assets/icons/star-fill.png">
+                            <img src="assets/icons/star-fill.png">
+                            <img src="assets/icons/star-fill.png">
+                        </div>
+                        <div class="testim-user">
+                            <div>
+                                <h3>John Doe</h3>
+                                <p><i>Chief Digital Officer</i></p>
+                            </div>
+                            <img id="testim-avatar" src="assets/images/avatar1.jpg">
+                        </div> -->
+
+                    <!-- Slider 4 -->
+                    <!-- <div class="testim-slider">
+                        <p>Nam sollicitudin dissinim <br>
+                            nunc, cursus ullamcorer eros <br>
+                            vulputate sed. Vestibulum sit <br>
+                            amet tortor sit ame libero.
+                        </p>
+                        <div class="testim-stars">
+                            <img src="assets/icons/star-fill.png">
+                            <img src="assets/icons/star-fill.png">
+                            <img src="assets/icons/star-fill.png">
+                            <img src="assets/icons/star-fill.png">
+                            <img src="assets/icons/star.png">
+                        </div>
+                        <div class="testim-user">
+                            <div>
+                                <h3>Jena Doe</h3>
+                                <p><i>Chief Digital Officer</i></p>
+                            </div>
+                            <img id="testim-avatar" src="assets/images/avatar5.jpg">
+                        </div>
+                    </div> -->
+                    <div class="testim-img">
+                        <img src="assets/images/testimonials.png">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Get Started -->
+        <div class="container">
+            <section class="getstart">
+                <div class="ready-to-gs">
+                    <h1>Ready to get started ?</h1>
+                    <p>Pellentesque ac bibendum tortor. Nulla eget lobortis lacus.</p>
+                </div>
+                <button>Create Appointment Now!</button>
+            </section>
+        </div>
+        <!-- Our clinics -->
+        <div class="container">
+            <section class="clin">
+                <h1 class="heading">Our Clinics</h1>
+                <p class="paragraph">Nam sollicitudin dignissim nunc, cursus ullamcorper eros vulputate sed.</p>
+                <!-- One -->
+                <div class="hq-container">
+                    <div class="hq-card">
+                        <img id="hq-img" src="assets/images/hq1.jpg">
+                        <div class="hq-main">
+                            <h3>Head Quarter</h3>
+                            <div class="hq-contact">
+                                <div id="phone">
+                                    <img src="assets/icons/phone.svg">
+                                    <p>+123 456 78 91</p>
+                                </div>
+                                <div id="mail">
+                                    <img src="assets/icons/inbox.svg">
+                                    <p>hello@luxi.com</p>
+                                </div>
+                            </div>
+                            <div id="location">
+                                <img src="assets/icons/location.svg">
+                                <p>Lorem ipsum street no 14 Block A</p>
+                            </div>
+                            <button>Contact</button>
+                        </div>
+                    </div>
+                    <!-- Two -->
+                    <div class="hq-card">
+                        <img id="hq-img" src="assets/images/hq2.jpg">
+                        <div class="hq-main">
+                            <h3>Head Quarter</h3>
+                            <div class="hq-contact">
+                                <div id="phone">
+                                    <img src="assets/icons/phone.svg">
+                                    <p>+123 456 78 91</p>
+                                </div>
+                                <div id="mail">
+                                    <img src="assets/icons/inbox.svg">
+                                    <p>hello@luxi.com</p>
+                                </div>
+                            </div>
+                            <div id="location">
+                                <img src="assets/icons/location.svg">
+                                <p>Lorem ipsum street no 14 Block A</p>
+                            </div>
+                            <button>Contact</button>
+                        </div>
+                    </div>
+                    <!-- Three -->
+                    <div class="hq-card">
+                        <img id="hq-img" src="assets/images/hq3.jpg">
+                        <div class="hq-main">
+                            <h3>Head Quarter</h3>
+                            <div class="hq-contact">
+                                <div id="phone">
+                                    <img src="assets/icons/phone.svg">
+                                    <p>+123 456 78 91</p>
+                                </div>
+                                <div id="mail">
+                                    <img src="assets/icons/inbox.svg">
+                                    <p>hello@luxi.com</p>
+                                </div>
+                            </div>
+                            <div id="location">
+                                <img src="assets/icons/location.svg">
+                                <p>Lorem ipsum street no 14 Block A</p>
+                            </div>
+                            <button>Contact</button>
+                        </div>
+                    </div>
+                    <!-- Four -->
+                    <div class="hq-card">
+                        <img id="hq-img" src="assets/images/hq4.jpg">
+                        <div class="hq-main">
+                            <h3>Head Quarter</h3>
+                            <div class="hq-contact">
+                                <div id="phone">
+                                    <img src="assets/icons/phone.svg">
+                                    <p>+123 456 78 91</p>
+                                </div>
+                                <div id="mail">
+                                    <img src="assets/icons/inbox.svg">
+                                    <p>hello@luxi.com</p>
+                                </div>
+                            </div>
+                            <div id="location">
+                                <img src="assets/icons/location.svg">
+                                <p>Lorem ipsum street no 14 Block A</p>
+                            </div>
+                            <button>Contact</button>
+                        </div>
+                    </div>
+                    <!-- Five -->
+                    <div class="hq-card">
+                        <img id="hq-img" src="assets/images/hq5.jpg">
+                        <div class="hq-main">
+                            <h3>Head Quarter</h3>
+                            <div class="hq-contact">
+                                <div id="phone">
+                                    <img src="assets/icons/phone.svg">
+                                    <p>+123 456 78 91</p>
+                                </div>
+                                <div id="mail">
+                                    <img src="assets/icons/inbox.svg">
+                                    <p>hello@luxi.com</p>
+                                </div>
+                            </div>
+                            <div id="location">
+                                <img src="assets/icons/location.svg">
+                                <p>Lorem ipsum street no 14 Block A</p>
+                            </div>
+                            <button>Contact</button>
+                        </div>
+                    </div>
+                    <!-- Six -->
+                    <div class="hq-card">
+                        <img id="hq-img" src="assets/images/hq6.jpg">
+                        <div class="hq-main">
+                            <h3>Head Quarter</h3>
+                            <div class="hq-contact">
+                                <div id="phone">
+                                    <img src="assets/icons/phone.svg">
+                                    <p>+123 456 78 91</p>
+                                </div>
+                                <div id="mail">
+                                    <img src="assets/icons/inbox.svg">
+                                    <p>hello@luxi.com</p>
+                                </div>
+                            </div>
+                            <div id="location">
+                                <img src="assets/icons/location.svg">
+                                <p>Lorem ipsum street no 14 Block A</p>
+                            </div>
+                            <button>Contact</button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="foot">
+                <div class="copywright">
+                    <div class="logo">
+                        <a href="index.html"><img id="logo" src="assets/icons/logo.svg" alt="Logo">
+                            <h1 class="med">Medical</h1>
+                        </a>
+                    </div>
+                    <p>Nam posuere accumsan porta. Integer <br>
+                        id tincidunt sit amet sed libero.</p>
+                    <p>© Skyrev Theme 2021</p>
+                </div>
+                <div class="company">
+                    <h2>Company</h2>
+                    <ul>
+                        <li><a href="">Donec dignissim</a></li>
+                        <li><a href="">Curabitur egestas</a></li>
+                        <li><a href="">Nam posuere</a></li>
+                        <li><a href="">Aenean facilisis</a></li>
+                    </ul>
+                </div>
+                <div class="services">
+                    <h2>Serivces</h2>
+                    <ul>
+                        <li><a href="">Cras convallis</a></li>
+                        <li><a href="">Vestibulum faucibus</a></li>
+                        <li><a href="">Quisque lacinia purus</a></li>
+                        <li><a href="">Aliquam nec ex</a></li>
+                    </ul>
+                </div>
+                <div class="resources">
+                    <h2>Resources</h2>
+                    <ul>
+                        <li><a href="">Suspendisse porttitor</a></li>
+                        <li><a href="">Nam posuere</a></li>
+                        <li><a href="">Curabitur egestas</a></li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/WHO"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.linkedin.com/company/world-health-organization"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="https://x.com/intent/follow?source=followbutton&variant=1.0&screen_name=who"><i
+                                class="bi bi-twitter"></i></a>
+                        <a href="https://www.instagram.com/who/"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
