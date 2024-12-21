@@ -997,6 +997,63 @@
      color: var(--white);
  }
 
+ /* Livechat */
+ .livechat {
+     border: 1px solid red;
+     background-color: #303030;
+     border-radius: 15px;
+     width: 300px;
+     position: fixed;
+     top: 50vh;
+     right: 0vh;
+ }
+
+ .chatnav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px;
+     background-color: var(--primary-color);
+     border-top-right-radius: 15px;
+     border-top-left-radius: 15px;
+ }
+
+ .chatlogo {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+ }
+
+ .chatlogo img {
+     width: 12px;
+     height: 12px;
+ }
+
+ .chatlogo h1 {
+     font-size: 20px;
+     font-weight: 600;
+     color: var(--paragraph-color);
+ }
+
+ .chatnav i {
+     font-size: 16px;
+     font-weight: 600;
+     color: var(--paragraph-color);
+
+ }
+
+ .chatmain {
+     height: 300px;
+     padding: 10px;
+ }
+
+ .chatnav form {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
  /*_________________________*/
 
  /* Footer */
