@@ -815,6 +815,8 @@
      padding: 15px 0px;
  }
 
+
+
  .chat-card #card-bottom i {
      width: 25px;
      height: 25px;
@@ -840,6 +842,10 @@
      border: none;
      text-transform: uppercase;
      font-weight: 600;
+ }
+
+ .thumbsred {
+     color: red;
  }
 
  #card-bottom #card-bottom-chat:active {
