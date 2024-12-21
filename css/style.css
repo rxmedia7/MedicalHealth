@@ -999,13 +999,21 @@
 
  /* Livechat */
  .livechat {
-     border: 1px solid red;
-     background-color: #303030;
+     background-color: #3030300a;
+     box-shadow: 0px 0px 15px -5px var(--paragraph-color);
      border-radius: 15px;
      width: 300px;
      position: fixed;
      top: 30vh;
-     right: 0vh;
+     right: 10vh;
+
+     opacity: 0;
+     z-index: -1;
+ }
+
+ .livechatvisible {
+     opacity: 1;
+     z-index: 5;
  }
 
  .chatnav {
@@ -1050,7 +1058,7 @@
  }
 
  .chatfoot {
-     background-color: #303030;
+     background-color: #2c2c2c13;
      padding: 10px;
      border-bottom-right-radius: 15px;
      border-bottom-left-radius: 15px;
@@ -1061,6 +1069,7 @@
      align-items: center;
      justify-content: left;
      gap: 10px;
+     color: var(--paragraph-color);
  }
 
  .chatfoot form input {
@@ -1070,6 +1079,10 @@
      outline: none;
      font-size: 14px;
      font-weight: 500;
+     color: var(--paragraph-color);
+ }
+
+ .chatfoot form input::placeholder {
      color: var(--paragraph-color);
  }
 

@@ -47,13 +47,14 @@ haveacc.onclick = function () {
     loginpop.classList.add("showlogin");
 };
 
-// let chatbutton = document.getElementsByClassName("card-bottom-chat");
-// let livechat = document.querySelector(".livechat");
-// let exit = document.querySelector("#exitbtn")
+//Livechat
+let chatbutton = document.querySelector("card-bottom-chat");
+let livechat = document.querySelector(".livechat");
+let exit = document.querySelector("#exitbtn")
 
-// chatbutton.addEventListener('pointerdown', () => {
-//     livechat.classList.toggle("livechatvisible");
-// });
-// exit.addEventListener('pointerdown', () => {
-//     livechat.classList.remove("livechatvisible");
-// });
+chatbutton.addEventListener('pointerdown', () => {
+    livechat.classList.add("livechatvisible");
+});
+exit.addEventListener('pointerdown', () => {
+    livechat.classList.remove("livechatvisible");
+});
