@@ -56,7 +56,7 @@
 
  /* Navigation bar */
 
- .navbar {
+ .navbar .container {
      display: flex;
      align-items: center;
      justify-content: space-between;
@@ -186,6 +186,7 @@
      border: 1px solid var(--paragraph-color);
      border-radius: 30px;
      padding: 5px;
+     height: 30px;
  }
 
  /* Login popup */

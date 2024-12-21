@@ -1,0 +1,43 @@
+@media (max-width: 960px) {
+    .navbar.container {
+        position: relative;
+        display: block;
+        background-color: #ffffff69;
+    }
+
+    .pages {
+        display: block;
+    }
+
+    .navbar.container .pages ul {
+        display: block;
+    }
+
+    .med {
+        display: none;
+    }
+
+    /*Landfoot*/
+    .landfoot {
+        display: grid;
+        grid-template-columns: repeat(2, 350px);
+        grid-template-rows: repeat(2, 193px);
+    }
+
+    .stats {
+        grid-template-columns: repeat(2, 350px);
+        grid-template-rows: repeat(2, 170px);
+    }
+
+    .doc-chat-container {
+        display: grid;
+        grid-template-columns: repeat(1, max-content);
+    }
+
+    .hq-container {
+        display: grid;
+        grid-template-columns: repeat(1, max-content);
+        grid-template-rows: repeat(6, max-content);
+
+    }
+}
