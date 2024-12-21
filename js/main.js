@@ -47,8 +47,22 @@ haveacc.onclick = function () {
     loginpop.classList.add("showlogin");
 };
 
+let regnow = document.querySelector(".regnow");
+
+regnow.addEventListener('pointerdown', () => {
+    regpop.classList.add("showreg")
+});
+
+let moreinfo = document.querySelector("#info");
+let clinics = document.querySelector("#clinics");
+
+moreinfo.addEventListener('pointerdown', () => {
+    document.classList.add("clinics")
+});
+
+
 //Livechat
-let chatbutton = document.querySelector("card-bottom-chat");
+let chatbutton = document.querySelector(".chat");
 let livechat = document.querySelector(".livechat");
 let exit = document.querySelector("#exitbtn")
 

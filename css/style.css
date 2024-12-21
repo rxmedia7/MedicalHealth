@@ -20,6 +20,7 @@
      --text-active: #00579B;
      --card-text-color: #9DA19F;
      --white: #fff;
+     transition: .5s;
  }
 
  .daymode {
@@ -31,6 +32,7 @@
      --card-bg-color: #fff;
      --text-active: #00579B;
      --btn-color: #357A38;
+     transition: .5s;
  }
 
  body {
@@ -1005,7 +1007,8 @@
      width: 300px;
      position: fixed;
      top: 30vh;
-     right: 10vh;
+     right: 0vh;
+     backdrop-filter: blur(50px);
 
      opacity: 0;
      z-index: -1;
