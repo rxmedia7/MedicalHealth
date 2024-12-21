@@ -1004,7 +1004,7 @@
      border-radius: 15px;
      width: 300px;
      position: fixed;
-     top: 50vh;
+     top: 30vh;
      right: 0vh;
  }
 
@@ -1044,14 +1044,39 @@
  }
 
  .chatmain {
-     height: 300px;
+     height: 400px;
      padding: 10px;
  }
 
- .chatnav form {
+ .chatfoot {
+     background-color: #303030;
+     padding: 10px;
+     border-bottom-right-radius: 15px;
+     border-bottom-left-radius: 15px;
+ }
+
+ .chatfoot form {
      display: flex;
      align-items: center;
-     justify-content: space-between;
+     justify-content: left;
+     gap: 10px;
+ }
+
+ .chatfoot form input {
+     width: 85%;
+     background-color: transparent;
+     border: none;
+     outline: none;
+     font-size: 14px;
+     font-weight: 500;
+     color: var(--paragraph-color);
+ }
+
+ .underline {
+     width: 80%;
+     height: 2px;
+     border-radius: 20px;
+     background-color: var(--paragraph-color);
  }
 
  /*_________________________*/
