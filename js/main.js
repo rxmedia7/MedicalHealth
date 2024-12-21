@@ -1,9 +1,14 @@
 // Day-Night mode switch
 
-const daymode = document.getElementById("gear");
+const moon = document.getElementById("moon");
+const sun = document.getElementById("sun");
 
-daymode.addEventListener('click', () => {
-    document.body.classList.toggle("daymode");
+
+sun.addEventListener('click', () => {
+    document.body.classList.add("daymode");
+});
+moon.addEventListener('click', () => {
+    document.body.classList.remove("daymode");
 });
 
 // Login menu

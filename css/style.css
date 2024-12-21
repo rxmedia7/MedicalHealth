@@ -142,6 +142,11 @@
      cursor: pointer;
  }
 
+ .usermenu #loginbtn:hover {
+     scale: 1.05;
+     transition-timing-function: ease-in-out;
+ }
+
  .usermenu .regis {
      font-size: 16px;
      font-weight: 700;
@@ -153,16 +158,34 @@
      text-transform: uppercase;
  }
 
+ .usermenu .regis:hover {
+     scale: 1.05;
+     transition-timing-function: ease-in-out;
+ }
+
  .usermenu i {
-     font-size: 26px;
+     font-size: 18px;
      color: var(--paragraph-color);
      cursor: pointer;
  }
 
- .usermenu i:active {
-     transform: rotate(360deg);
-     transition: .5s;
-     animation-timing-function: ease-in-out;
+ .usermenu #moon:active {
+     transition: .3s;
+ }
+
+ .usermenu #sun:active {
+     transition: .1s;
+     transform: rotate(45deg);
+ }
+
+ .switch {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 15px;
+     border: 1px solid var(--paragraph-color);
+     border-radius: 30px;
+     padding: 5px;
  }
 
  /* Login popup */
@@ -372,6 +395,10 @@
      border-radius: 50px;
      border: none;
      cursor: pointer;
+ }
+
+ .lnd-btn .regnow:hover {
+     scale: 1.05;
  }
 
  .landfoot {
@@ -644,6 +671,10 @@
      text-transform: uppercase;
  }
 
+ .see_detail:active {
+     color: #c4c4c4;
+ }
+
  /* Our Speciality */
  .splty {
      display: flex;
@@ -810,6 +841,11 @@
      font-weight: 600;
  }
 
+ #card-bottom #card-bottom-chat:active {
+     color: #c4c4c4;
+ }
+
+
  /* People Testimonials */
 
  .testim-cont {
@@ -906,6 +942,10 @@
      border: none;
      padding: 10px 40px;
      font-weight: 600;
+ }
+
+ .getstart button:active {
+     scale: 1.03;
  }
 
  /* Our clinics */
