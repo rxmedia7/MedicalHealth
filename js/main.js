@@ -77,12 +77,3 @@ chatbutton.addEventListener('pointerdown', () => {
 exit.addEventListener('pointerdown', () => {
     livechat.classList.remove("livechatvisible");
 });
-
-//Thumbs-up
-
-let thumbsup = document.querySelector("bi bi-hand-thumbs-up");
-
-thumbsup.addEventListener("pointerdown", () => {
-    thumbsup.classList.add("thumbsred");
-    console.log("Hello");
-});
